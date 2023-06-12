@@ -30,3 +30,5 @@ This archive contains basic tweet data (tweet ID, timestamp, text, etc.) for all
 - I have downloaded image_predictions.tsv from the provided URL using Request library
 - I have queried each tweet's retweet count and favorite ("like") count using the Tweepy library and stored the data in tweet_json.txt
 - I have read the tweet_json.txt line by line into a pandas DataFrame with tweet ID, retweet count, and favorite count
+
+_Additional Resource: Twitter API_
