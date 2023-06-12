@@ -1,5 +1,6 @@
 # WeRateDogs-Dataset
-WeRateDogs twitter archive dataset for data wrangling, data analyses and visualizations.
+This project was completed as part of Udacity's Data Analyst Nanodegree.
+Used WeRateDogs twitter archive dataset for data wrangling, data analyses and visualizations.
 
 ## Project Steps Overview
 My tasks in this project are as follows:
@@ -23,6 +24,8 @@ The dataset to be wrangling (and analyzing and visualizing) is the tweet archive
 These ratings almost always have a denominator of 10. The numerators, though? Almost always greater than 10. 11/10, 12/10, 13/10, etc. Why? Because "they're good dogs Brent." WeRateDogs has over 4 million followers and has received international media coverage.
 
 This archive contains basic tweet data (tweet ID, timestamp, text, etc.) for all 5000+ of their tweets as they stood on August 1, 2017. 
+
+In addition, Udacity ran the images on WeRateDogs's account through a neural network to generate three predictions for each image. For each prediction, there is also data on the confidence and whether the prediction is a type of dog breed.
 
 ## Step 1 Checklist
 
