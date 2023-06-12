@@ -24,5 +24,9 @@ These ratings almost always have a denominator of 10. The numerators, though? Al
 
 This archive contains basic tweet data (tweet ID, timestamp, text, etc.) for all 5000+ of their tweets as they stood on August 1, 2017. 
 
+## Step 1 Checklist
 
-
+- I have downloaded and uploaded twitter_Archive_enhanced.csv
+- I have downloaded image_predictions.tsv from the provided URL using Request library
+- I have queried each tweet's retweet count and favorite ("like") count using the Tweepy library and stored the data in tweet_json.txt
+- I have read the tweet_json.txt line by line into a pandas DataFrame with tweet ID, retweet count, and favorite count
