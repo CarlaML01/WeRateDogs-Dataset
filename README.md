@@ -15,6 +15,7 @@ A combination of visual and programmatic assessment techniques was employed to i
 
 ## **Data Cleaning**
 To address the identified issues, a systematic data cleaning process was implemented. The cleaning process involved the following steps:
+
 **1. Quality Issues:** 
 Several quality issues were addressed, including the removal of du- plicated data in the "expanded_urls" column and the elimination of rows with null values in the same column. Rows with non-null values in the "retweeted_status_id," "retweeted_status_user_id," and "retweeted_status_timestamp" columns were also re- moved. 
 The datatype of the "timestamp" column was changed to datetime for consistency. Accurate ratings were obtained by selecting rows with denominators other than 10 and comparing them with the text column. 
@@ -31,7 +32,9 @@ The final cleaned dataset was stored in a CSV file named "twitter_archive_master
 The cleaned dataset was analyzed to derive insights and create visualizations. Three key insights were obtained:
 
 *1. Most Popular Breeds:* The analysis revealed that the top five most popular breeds on the WeRateDogs account were Golden Retriever, Labrador, Pembroke, Chihuahua, and Pug. However, it was noted that a significant number of breeds were not predicted in the dataset. To visualize this finding, a bar plot was created, showcasing the popularity of different breeds.
+
 *2. Most Common Names:* The analysis showed that approximately 726 dogs had no recorded names, indicating a data recording issue. For female and male dogs, Lucy and Charlie emerged as the most popular names, respectively. Additionally, several other common names were identified based on qualification matches. A pie chart was created to visual- ize the distribution of dog names.
+
 *3. Most Common Ratings:* The analysis revealed that the most popular ratings given by WeR- ateDogs were 10/10, 12/10, and 11/10. It was observed that WeRateDogs tended to give higher ratings to most of the dogs they featured. To visualize this finding, a bar plot was created, illustrating the distribution of ratings.
 In conclusion, the WeRateDogs Twitter project involved extensive data wrangling efforts, in- cluding data gathering, assessment, and cleaning. The cleaned dataset provided a solid foun- dation for deriving insights and creating visualizations. 
 
