@@ -1,6 +1,8 @@
 # WeRateDogs Twitter Project (WeRateDogs-Dataset)
 *By Carla Mota Leal*
 
+![WeRateDogs](/weratedogs.png)
+
 The WeRateDogs Twitter project aimed to **gather, assess, and clean data** from various sources, including the *WeRateDogs Twitter archive*, *tweet image predictions*, and additional data obtained through the *Twitter API*. The objective was to wrangle the data and derive insights from it. Here I will provide you a summary of the wrangling efforts undertaken for this project.
 ## **Data Wrangling**
 The data wrangling process involved several key steps, including data gathering, data assess- ment, and data cleaning.
